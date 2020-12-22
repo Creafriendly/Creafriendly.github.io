@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
-	--pic: url('https://www.intelligence-artificielle-school.com/wp-content/uploads/2020/08/AdobeStock_316550206.jpeg');
 *{
     margin: 0;
     padding: 0;
@@ -33,7 +32,7 @@ header{
 	padding: 10px;
 	position: absolute;
 	top: 50%;
-	left: 20px;
+	left: 50px;
 	transform: translate(0,-50%);
 	transition: .2s;
 }
@@ -46,9 +45,39 @@ header{
 
 .logo_title{
 	text-transform: uppercase;
-	color: #fff;
-	text-shadow: 0 0 1px #000;
-
+	color: #000;
 }
+
+.menu_container{
+	width: 800px;
+	height: 100%;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	right: 100px;
+	transform: translate(0,-50%);
+	transition: .2s;
+}
+
+.menu_container a{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	letter-spacing: 2px;
+	transition: .3s;
+}
+.menu_container a:hover{
+	padding: 5px 0;
+}
+
+
 
 /*----------Responsive----------*/
