@@ -76,6 +76,13 @@ header{
 	padding: 5px 0;
 }
 
+.main_container{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
-
-/*----------Responsive----------*/
+button:hover{
+	cursor: pointer;
+}
