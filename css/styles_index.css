@@ -1,26 +1,83 @@
-.main_container div{
+.descri{
+	position: relative;
+	max-width: 100%;
+}
+
+.main_container .options{
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	max-width: 65%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main_container .exos{
+	margin-top: 17%;
+	margin-left: 45%;
+	max-width: 55%;
+}
+
+.main_container .options h2{
+	width: 55%;
+	font-size: 180%;
+	margin-bottom: 20px;
+	color: #0B007E;
+	text-decoration: underline #0B007E;
+}
+
+.main_container .exos h2{
+	text-align: right;
+}
+
+.main_container .descri img{
+	position: absolute;
+}
+
+.main_container .lessons img{
+	margin-top: -1.5%;
+	margin-left: 60%;
+	width: 100%;
+	max-width: 30%;
+}
+
+.main_container .descri > img{
+	margin-top: 15%;
+	margin-left: 17.5%;
+	width: 100%;
+	max-width: 21%;
+}
+
+.main_container .options p{
+	width: 55%;
+	line-height: 22px;
+	font-size: 110%;
+	text-align: justify;
+}
+
+.main_container .story{
+	margin-top: 250px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-.main_container div h2{
+.main_container .story h2{
 	font-size: 180%;
 	color: red;
 	font-style: italic;
 	text-decoration: underline;
 }
 
-.main_container div p{
+.main_container .story p{
 	margin-top: 50px;
 	font-size: 130%;
-	hyphens: auto;
 	max-width: 60%;
-	line-height: 30px;
+	line-height: 35px;
 }
 
-.main_container div p a{
+.main_container .story p a{
 	color: SlateBlue;
 	text-decoration: underline SlateBlue;
 }
