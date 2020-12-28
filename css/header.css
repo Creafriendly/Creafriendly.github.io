@@ -41,12 +41,12 @@ header{
 
 .logo_container{
 	background: #fffe01;
-	width: 350px;
+	width: 450px;
 	border-radius: 3px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 10px;
+	padding: 10px 35px;
 	position: absolute;
 	top: 50%;
 	left: 50px;
