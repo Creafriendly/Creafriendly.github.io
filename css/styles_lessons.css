@@ -64,6 +64,8 @@ button:active{
 	cursor: pointer;
 	transition: 0.2s;
 	position: relative;
+	letter-spacing: 3px;
+	font-weight: bold;
 }
 .pointer:before{
 	content: "";
@@ -72,8 +74,8 @@ button:active{
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-bottom: 1px solid #000;
-	transition: 0.2s;
+	border-bottom: 2px solid #000;
+	transition: 0.2s
 }
 .pointer:hover:before{
 	width: 100%;
