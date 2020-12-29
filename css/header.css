@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
 @font-face {
-  src: url('../xylalphabet.ttf');
-  font-family:'xylalphabet';
+  src: url('../font/1erEcrit.ttf');
+  font-family:'1E';
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/2meEcrit.ttf');
+  font-family:'2E';
   font-style: normal;
 }
 
